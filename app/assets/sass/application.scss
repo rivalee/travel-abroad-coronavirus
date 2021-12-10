@@ -17,6 +17,9 @@ $govuk-assets-path: '/govuk/assets/';
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
+.onwards {
+  margin: 20px 0 50px 0;
+}
 .float-title {
   color: govuk-colour("dark-grey");
 }
