@@ -1,11 +1,11 @@
 // Based on https://github.com/alphagov/govuk_publishing_components/blob/v22.0.0/app/assets/stylesheets/govuk_publishing_components/components/_step-by-step-nav.scss
 // Note - this code for prototype purposes only. It is not production code.
 
-$stroke-width: 2px;
-$stroke-width-large: 3px;
-$number-circle-size: 26px;
+$stroke-width: 1px;
+$stroke-width-large: 1px;
+$number-circle-size: 24px;
 $number-circle-size-large: 35px;
-$top-border: solid 2px govuk-colour("mid-grey", $legacy: "grey-3");
+$top-border: solid 1px govuk-colour("mid-grey", $legacy: "grey-3");
 
 @mixin step-nav-vertical-line ($line-style: solid) {
   content: "";
@@ -144,7 +144,7 @@ $top-border: solid 2px govuk-colour("mid-grey", $legacy: "grey-3");
     margin-left: $number-circle-size / 4;
     width: $number-circle-size / 2;
     height: 0;
-    border-bottom: solid $stroke-width govuk-colour("mid-grey", $legacy: "grey-2");
+    border-bottom: solid $stroke-width govuk-colour("mid-grey", $legacy: "grey-1");
   }
 
   &:after {
