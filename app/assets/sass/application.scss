@@ -18,6 +18,7 @@ $govuk-assets-path: '/govuk/assets/';
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
 
+
 .action-arrow {
   background: url(/public/images/action-arrow.svg) no-repeat;
   height: 20px;
@@ -139,8 +140,9 @@ $govuk-assets-path: '/govuk/assets/';
 }
 
 .smart-answer-cta {
-  padding: 20px 20px 10px 0px;
+  padding: 20px 20px 10px 20px;
   margin: 10px 0 10px 0;
+  border: 1px solid $govuk-border-colour;
 }
 
 .smart-answer-cta2 {
