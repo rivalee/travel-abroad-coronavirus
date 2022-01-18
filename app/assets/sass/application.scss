@@ -18,6 +18,10 @@ $govuk-assets-path: '/govuk/assets/';
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
 
+.scaled {
+  display: 150%;
+  margin-bottom: 20px;
+}
 
 .action-arrow {
   background: url(/public/images/action-arrow.svg) no-repeat;
@@ -27,6 +31,9 @@ $govuk-assets-path: '/govuk/assets/';
   padding-right: 5px;
 }
 
+.adjust-margin {
+  padding-left: 25px;
+}
 .onwards {
   margin: 20px 0 50px 0;
 }
@@ -137,6 +144,7 @@ $govuk-assets-path: '/govuk/assets/';
   background: #f3f2f1;
   padding: 30px 0 20px 20px;
   margin-bottom: 20px;
+  border: 1px solid $govuk-border-colour;
 }
 
 .smart-answer-cta {
