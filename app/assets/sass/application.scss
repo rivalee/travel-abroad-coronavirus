@@ -18,6 +18,12 @@ $govuk-assets-path: '/govuk/assets/';
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
 
+.app-step-nav__controls {
+    padding: 3px 3px 20px 0;
+    text-align: left !important;
+
+  }
+
 .govuk-header__link govuk-header__link--service-name {
   display: hidden;
 }
