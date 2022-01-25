@@ -16,7 +16,29 @@ $govuk-assets-path: '/govuk/assets/';
 @import "patterns/related-items";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+@import "autocomplete/autocomplete";
 
+.label-wrapper {
+  .govuk-label,
+  .fake-link {
+    display: inline-block;
+  }
+
+  .govuk-label {
+    margin-right: govuk-spacing(4);
+  }
+
+  .fake-link {
+    @include govuk-font(19);
+    @extend %govuk-link;
+    color: $govuk-link-colour;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
 
 .adjust-margin {
   margin-top: -10px;
