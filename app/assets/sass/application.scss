@@ -18,6 +18,13 @@ $govuk-assets-path: '/govuk/assets/';
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 @import "autocomplete/autocomplete";
 
+
+.share-link {
+  border: 1px solid $govuk-border-colour;
+  padding: 10px;
+  display: inline-block;
+}
+
 .label-wrapper {
   .govuk-label,
   .fake-link {
